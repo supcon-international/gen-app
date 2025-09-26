@@ -1,0 +1,47 @@
+{
+  "name": "uns-app-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for generating industrial UNS/MQTT applications",
+  "type": "module",
+  "bin": {
+    "uns-app": "./bin/uns-app.mjs"
+  },
+  "scripts": {
+    "dev": "tsx watch src/cli.ts",
+    "build": "tsc",
+    "start": "node ./bin/uns-app.mjs",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "cli",
+    "uns",
+    "mqtt",
+    "industrial",
+    "code-generation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "execa": "^9.5.1",
+    "fs-extra": "^11.3.2",
+    "inquirer": "^12.2.0",
+    "mqtt": "^5.10.1",
+    "openai": "^5.23.0",
+    "ora": "^8.1.0",
+    "uuid": "^13.0.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

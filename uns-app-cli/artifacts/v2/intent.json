@@ -1,0 +1,9 @@
+{
+  "app_kind": "dashboard",
+  "industry": "industrial",
+  "features": [
+    "real-time data",
+    "data visualization"
+  ],
+  "initial_prompt": "a dashboard for a metal factory that monitors all devices"
+}

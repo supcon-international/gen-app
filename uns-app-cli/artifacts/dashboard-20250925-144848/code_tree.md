@@ -1,0 +1,97 @@
+# Code Tree for dashboard-20250925-144939
+
+Generated: 2025-09-25T06:50:49.590Z
+
+## File Structure
+
+- .env.example
+- .gitignore
+- README.md
+- components.json
+- index.html
+- package-lock.json
+- package.json
+- postcss.config.cjs
+- postcss.config.js
+  - vite.svg
+  - App.css
+  - App.tsx
+    - Layout.tsx
+      - ConnectionPanel.tsx
+      - DashboardTab.tsx
+      - InventoryStatusPanel.tsx
+      - MachinePerformancePanel.tsx
+      - MetricsGrid.tsx
+      - OrderTrackingPanel.tsx
+      - RealTimeOverviewPanel.tsx
+      - TopicsTab.tsx
+      - Footer.tsx
+      - Header.tsx
+      - accordion.tsx
+      - alert-dialog.tsx
+      - alert.tsx
+      - aspect-ratio.tsx
+      - avatar.tsx
+      - badge.tsx
+      - breadcrumb.tsx
+      - button.tsx
+      - calendar.tsx
+      - card.tsx
+      - carousel.tsx
+      - chart.tsx
+      - checkbox.tsx
+      - collapsible.tsx
+      - command.tsx
+      - context-menu.tsx
+      - dialog.tsx
+      - drawer.tsx
+      - dropdown-menu.tsx
+      - form.tsx
+      - hover-card.tsx
+      - input.tsx
+      - label.tsx
+      - menubar.tsx
+      - navigation-menu.tsx
+      - pagination.tsx
+      - popover.tsx
+      - progress.tsx
+      - radio-group.tsx
+      - resizable.tsx
+      - scroll-area.tsx
+      - select.tsx
+      - separator.tsx
+      - sheet.tsx
+      - skeleton.tsx
+      - slider.tsx
+      - sonner.tsx
+      - switch.tsx
+      - table.tsx
+      - tabs.tsx
+      - textarea.tsx
+      - toggle-group.tsx
+      - toggle.tsx
+      - tooltip.tsx
+    - useMqtt.ts
+  - index.css
+    - utils.ts
+  - main.tsx
+    - MQTTProvider.tsx
+    - client.ts
+    - Example.tsx
+  - router.tsx
+    - index.ts
+  - vite-env.d.ts
+- tailwind.config.cjs
+- tailwind.config.js
+- tsconfig.app.json
+- tsconfig.json
+- tsconfig.node.json
+- vite.config.ts
+
+## Key Components
+
+- **src/**: Source code
+- **public/**: Static assets
+- **package.json**: Dependencies and scripts
+- **tsconfig.json**: TypeScript configuration
+- **vite.config.ts**: Build configuration
